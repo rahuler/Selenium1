@@ -45,6 +45,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\eclipse-workspac
 	    driver.findElement(By.xpath("//input[@id='imagesrc']")).sendKeys("C:\\Users\\DELL\\Pictures");
 	    
 	    System.out.println("file is uploaded");
+	    System.out.println("file is uploaded");
 	  
 	 
 	    

@@ -15,7 +15,7 @@ import org.testng.Assert;
 
 public class PressCombination {
 	
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException{
 		
 System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\eclipse-workspace\\Selenium1\\Exe\\chromedriver.exe");
 		
@@ -29,7 +29,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\eclipse-workspac
 	    text4. sendKeys("rahul");
 	    
 		String text3 = text4.getAttribute("value");
-		System.out.println(text3);
+		System.out.println(text3+"@@@@@");
 		driver.findElement(By.xpath("//*[@ng-model='Adress']")).click();
 		driver.findElement(By.xpath("//*[@ng-model='Adress']")).sendKeys(Keys.CONTROL+"a");
 		Thread.sleep(2000);
@@ -40,6 +40,11 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\eclipse-workspac
 	    String text1 = display.getAttribute("value");
 	    System.out.println("Enter Address:="+ text1);
 	    Assert.assertEquals(text1, "Finaaly I'm able to enter");
+	    
+	    Thread.sleep(4000);
+	    driver.findElement(By.xpath("//input[@id='imagesrc']")).sendKeys("C:\\Users\\DELL\\Pictures");
+	    
+	    System.out.println("file is uploaded");
 	  
 	 
 	    

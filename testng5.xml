@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNgListners.Base"/>
+      <class name="Script.HomepageTest"/>
+      <class name="ExtendReport.TestDemo"/>
+      <class name="TestNG.TestDemo"/>
+      <class name="ExtendReport.TestDemo2"/>
+      <class name=".TestngDemo"/>
+      <class name=".TestDemo"/>
+      <class name=".RetryDemo"/>
+      <class name="TestNgListners1.TestClass"/>
+      <class name=".Retrylogic"/>
+      <class name="Script.Test2"/>
+      <class name="TestNgListners.TestClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

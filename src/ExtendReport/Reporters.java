@@ -1,5 +1,5 @@
 import com.relevantcodes.extentreports.IReporter;
-import com.relevantcodes.extentreports.Report;
+
 import com.relevantcodes.extentreports.model.Test;
 
 public class Reporters implements IReporter{

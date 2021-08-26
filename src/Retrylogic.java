@@ -14,7 +14,7 @@ public class Retrylogic {
   @Test()
 	
 	public void Test2() {
-		//Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 		
 	}
 	

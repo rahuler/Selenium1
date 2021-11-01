@@ -35,7 +35,7 @@ public class Test1 extends Base{
 			Thread.sleep(4000);
 			driver.close();	
 	
-	@Test
+
 	 
 	
 	

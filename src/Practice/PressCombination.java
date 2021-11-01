@@ -39,7 +39,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\eclipse-workspac
 	    Thread.sleep(2000);
 	    String text1 = display.getAttribute("value");
 	    System.out.println("Enter Address:="+ text1);
-	    Assert.assertEquals(text1, "Finaaly I'm able to enter");
+	    Assert.assertEquals(text1, "Finally I'm able to enter");
 	  
 	 
 	    
